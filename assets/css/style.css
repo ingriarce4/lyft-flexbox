@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex-container{
+	display: flex;
+}
+
+
+.link{
+  margin: 18px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.link:hover{
+	color: #FF00BF;
+}
+
+.menu{
+	background-color: transparent;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+#navs{
+	align-items: center;
+}
+
+.menu.flex-container{
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.logo-container{
+	background-image: url(../img-lyft/logo-white.png);
+	margin-right: auto;
+	margin-left: 80px;
+	background-repeat: no-repeat;
+	width: 70px;
+	background-size: 100%;
+	margin-top: 15px;
+	/*align-self: center;*/
+}
+
+.logo {
+	align-self: center;
+	padding-top:35px;
+}
+
+.otro{
+	border: 1px solid white;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+
+
+/*-----parte del footer-------*/
+
+.footer.flex-container{
+	background-color: #333447;
+	color: white;
+	padding: 50px 64px 30px;
+	font-size: 14px;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.row.flex-container{
+	flex-direction: row;
+	padding-bottom: 60px;
+}
+
+.colum{
+	width: 178px;
+}
+
+.colum a{
+	text-decoration: none;
+	color: white;
+}
+
+.colum a:hover{
+	color: #FF00BF;
+	text-decoration: underline;
+}
+.store{
+	height: 50px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.store img{
+	width: 160px;
+	height: 100%;
+}
+
+.row-store{
+	text-align: right;
+	/*width: 350px;*/
+	margin-left: auto;
+}
