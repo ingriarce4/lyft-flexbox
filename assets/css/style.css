@@ -42,7 +42,7 @@ body {
 }
 
 .logo-container{
-	background-image: url(/img-lyft/logo-white.png);
+	background-image: url(../logo-white.png);
 	margin-right: auto;
 	margin-left: 80px;
 	background-repeat: no-repeat;
