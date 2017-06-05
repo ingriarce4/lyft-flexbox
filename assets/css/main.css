@@ -11,9 +11,17 @@
 }
 
 .pad-16{
-	padding: 0 15px;
+	padding: 0 16px;
 }
 
 .hide{
 	display: none;
 }
+
+/*
+purple: #352384;
+gray: #333447;
+pink: #FF00BF;
+dark purple #352384
+*/
+

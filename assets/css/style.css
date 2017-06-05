@@ -5,10 +5,10 @@ body {
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
+
 .flex-container{
 	display: flex;
 }
-
 
 .link{
   margin: 18px;
@@ -42,19 +42,13 @@ body {
 }
 
 .logo-container{
-	background-image: url(../img-lyft/logo-white.png);
+	background-image: url(/img-lyft/logo-white.png);
 	margin-right: auto;
 	margin-left: 80px;
 	background-repeat: no-repeat;
 	width: 70px;
 	background-size: 100%;
 	margin-top: 15px;
-	/*align-self: center;*/
-}
-
-.logo {
-	align-self: center;
-	padding-top:35px;
 }
 
 .otro{
@@ -62,8 +56,80 @@ body {
 	padding: 5px 15px;
 	border-radius: 5px;
 }
+/*-----parte del registro-------*/
+#registro.flex-container{
+	justify-content: flex-end;
+	overflow: hidden;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
+#registro{
+	margin: 0;
+	height: 600px;	
+}
 
+.cuerpo{
+	max-width: 100%;
+	margin: 0;
+	justify-content: flex-end;
+}
+
+video { 
+    max-width: 99vw;
+    min-height: 99vh;
+    height: auto;
+    width: auto;
+    z-index: -100;
+    background-size: cover;
+	margin: 0;
+
+}
+
+.cuadro-blanco.flex-container{
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.cuadro-blanco{
+	padding: 50px;
+	width: 430px;
+	position: absolute;
+	top: 120px;
+	right: 0;
+	background-color: white;
+}
+
+.miles{
+	font-size: 2.5rem;
+	color: #352384;
+	line-height: 2.6rem;
+}
+
+.inputs input{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	margin: 14px 0 0 0;
+	background-color: transparent;
+	font-size: 15px;
+	outline: 0;
+}
+
+.boton{
+	text-decoration: none;
+	border: none;
+	background-color: #FF00BF;
+	color: white;
+	padding: 20px 20px;
+	border-radius: 5px;
+	margin-top: 15px;
+	font-size: 1rem;
+	margin-right: 10px;
+	cursor: pointer;
+}
 
 /*-----parte del footer-------*/
 
